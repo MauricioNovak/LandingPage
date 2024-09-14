@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(204 184 152);
+    overflow-x: hidden;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    padding:auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+nav a:hover {
+    background-color: rgb(92, 212, 228);
+    background-size: auto;
+    color: white;
+}
+
+header{
+    background-image: url("../imgs/miami-skyline.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 280px;
+    padding-left: 150px;
+    padding-top: 25px;
+}
+
+.cuadradoHeader{
+    background-color: rgba(255, 255, 255,0.4);
+    display: inline-block
+}
+
+.titulo{
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size:50px;
+}
+.subtitulo{
+    margin: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size:30px;
+}
+
+tr,td{
+    padding: 20px;
+}
+
+.formato-tabla{
+    margin-left: 150px;
+}
+
+.autos{
+    width: 350px;
+    height: 250px;
+}
+
+.letraAutos{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    }
+
+
+footer{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+.cajafooter{
+    background-color: rgb(1 140 146);
+    width: 100%;
+}
+
+.parrafoFooter{
+width: 100%;
+margin:0;
+padding-top: 10px;
+color: antiquewhite;
+
+}
+
+.logoInstagram{
+    width: 50px;
+    height: 50px;
+}
+
+.instaHover :hover{
+    background-color:antiquewhite;
+    border-radius: 50%;
+}
+
+
+
